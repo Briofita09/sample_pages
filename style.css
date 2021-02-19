@@ -1,3 +1,6 @@
+html{
+  font-family: 'Orbitron', sans-serif;
+}
 .header__box{
     box-sizing: border-box;
     background: #000000;
@@ -17,7 +20,7 @@
 .header__title{
     position: absolute;
     color: #f30c0c;
-    font-size: 8em;
+    font-size: 7.63em;
     top: 50%;
     left: 31.2%;
     text-shadow: 5px 5px 8px white;
@@ -38,6 +41,7 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-radius: 10px;
   }
   
   .fa:hover {
@@ -47,6 +51,7 @@
   .fa-facebook {
     background: #3B5998;
     color: white;
+    height: max-content;
   }
 
   .fa-youtube {
@@ -56,12 +61,10 @@
   
 
 body {
-    background-color:red;
+    background: linear-gradient(white, red)
   }
   
-  /* Center website */
   .main {
-    max-width: 1000px;
     margin: auto;
     padding: 20px;
   }
@@ -70,36 +73,46 @@ body {
     margin: auto;
   }
   
-  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
     padding: 0px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
     margin-top: 30px;
   }
   
-  /* Clear floats after rows */ 
   .row:after {
-    clear: both;
     display: table;
+    clear: both;
+    content: "";
   } 
 
   .content {
     padding: 10px;
-    height: 315px;
   }
 
   .content video{
-      border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;
   }
 
   .content h3{
-    font-size: 1.3em;
+    padding-top: 15px;
+    font-size: 1.09em;
     text-align: center;
     font-weight: bold;
+  }
+
+  footer{
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
   }
