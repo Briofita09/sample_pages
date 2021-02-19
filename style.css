@@ -116,9 +116,11 @@ body {
     font-size: 1.5em;
   }
 
-  @media only screen and (max-width: 600px){
+  @media screen and (min-width: 0){
     .header__title{
-      font-size: 3em;
+      font-size: 6em;
+      text-align: center;
+      left: 14.5%;
     }
 
     .column {
