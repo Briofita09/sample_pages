@@ -80,6 +80,7 @@ body {
   .column {
     float: left;
     width: 25%;
+    margin-top: 30px;
   }
   
   /* Clear floats after rows */ 
@@ -90,6 +91,7 @@ body {
 
   .content {
     padding: 10px;
+    height: 315px;
   }
 
   .content video{
