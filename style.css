@@ -22,7 +22,7 @@ html{
     color: #f30c0c;
     font-size: 7.63em;
     top: 50%;
-    left: 31.2%;
+    left: 26.2%;
     text-shadow: 5px 5px 8px white;
 }
 
@@ -93,7 +93,7 @@ body {
     padding: 10px;
   }
 
-  .content video{
+  .content .video{
     outline: none;
     border: 2px solid black;
     border-radius: 12px;
@@ -116,7 +116,7 @@ body {
     font-size: 1.5em;
   }
 
-  @media screen and (max-width: 480px){
+  @media only screen and (max-width: 600px){
     .header__title{
       font-size: 3em;
     }
